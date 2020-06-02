@@ -1,0 +1,152 @@
+ <!-- CSS Stylesheet -->
+ 
+ body
+ {
+ margin:0px;
+ }
+ 
+/* -----------------------Wrapper ID--------------------- */	
+			
+ #wrapper  
+ {	
+	width:0px auto;
+	margin:0px auto;
+ }
+ 
+  #wrapper #header
+ {
+	//height: 110px;
+	//width: 1500px;
+	//background-color: #6F7D0F;
+	font-size: 10px;
+	//Text-align: left;
+	color: #003cb3;
+	align: top;
+ }
+ 
+   #wrapper #topnav
+ {
+	height: 50px;
+	//width: 1500px;
+	//background-color: yellow;
+	//vertical-align: top;
+	//text-align: center;
+	color: white;
+
+	//border-bottom: double thick black;
+	//border-top: double thick black;
+	
+	font-size: 20px;
+ }
+ 
+ 
+   #wrapper #leftnav
+ {
+	width: 161px;
+	//background-color: green;
+	float: left;
+	color: black;
+ }
+ 
+ 
+    #wrapper #main
+ {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	//background-color: red;
+	padding: 0px;
+ }
+ 
+ 
+  #wrapper #row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+  #wrapper #column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+  #wrapper #column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+ 
+  #wrapper #paragraph
+  {
+	  background-color: gray;
+	  text-align: center;
+	  color: white;
+	  font-size: 20px;
+
+  }
+  
+ 
+ /* ----------------------Menu Tabs------------------- */
+ 
+ #menu ul				/* all unordered list */
+ {
+	 list-style:none;	/* removes bullets from list */
+ }	
+ 
+ #menu ul li			/*   unordered list  and list items */ 
+ {
+	margin-left: 85px;
+	text-align: center;
+	float: right;
+	position: relative;
+ }	 
+ 
+  #menu ul li a /*   unordered list and list items and anchor tag (a): tab link  */ 
+ {
+	 text-decoration: none;
+	 color: black;
+	 display: block;
+ }	 
+  
+ 
+  #menu ul li a:hover
+ {
+	 border-bottom: solid thin black;
+ }	 
+ 
+
+/* ----------------------FOOTER----------------------- */
+  
+  
+   #wrapper #slideshow-container
+ {
+
+ }
+  #wrapper #mySlides fade
+ {
+
+ }
+  #wrapper #numbertext
+ {
+
+ }
+  #wrapper #text
+ {
+
+ }
+
+  
+ #wrapper #footer
+ {
+	font-size: 16px;
+	clear: both;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	padding: 15px;
+	border-bottom: solid thin black;
+	border-top: solid thin black;
+ }
+ 

@@ -1,0 +1,37 @@
+
+
+
+CSS
+
+Selector = HTML Tag
+	<>
+
+
+			Declaration
+Selector { Property . Value }
+			font:red #ff0000
+	
+
+	p = paragraph
+	p{ color:green; size:12px;}
+	
+				or
+				
+	.myparagraph{ color:green; size:12px;}  // My own Tag fully customizable
+	
+	
+	
+	HTML:
+	<p[ class = "myparagraph">
+	
+	
+	
+	padding: space around an element's content, inside of any defined borders
+	
+	
+	-------------------------------------------------------
+	
+	Class
+	ID
+	
+	

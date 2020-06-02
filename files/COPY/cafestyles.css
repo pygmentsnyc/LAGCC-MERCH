@@ -1,0 +1,108 @@
+ <!-- CSS Stylesheet -->
+ 
+ body
+ {
+ margin:0px;
+ }
+				
+ #wrapper  
+ {	
+	width:1000px;
+	margin:0px auto;
+ }
+ 
+  #wrapper #header
+ {
+	width: 60px;
+	text-align: center;
+ }
+ 
+   #wrapper #topnav
+ {
+	height: 45px;
+	text-align: center;
+	background-color: #6F7D0F;
+	color: white;
+	border-bottom: double thick black;
+	border-top: solid thin black;
+ }
+ 
+ 
+   #wrapper #leftnav
+ {
+	width: 161px;
+	background-color: green;
+	float: left;
+	color: black;
+ }
+ 
+ 
+    #wrapper #main
+ {
+
+	height: 1000px;
+	background-color: red;
+	
+	/*background-image: url("back123.jpg"); 
+	/* Full height */
+	/* height: 100%; */
+	/* Center and scale the image nicely */
+	/* background-position: center; */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+  
+
+	padding: 5px;
+ }
+ 
+ 
+ /* ----------------------------------------------------- */
+ 
+ #menu ul				/* all unordered list */
+ {
+	 list-style:none;	/* removes bullets from list */
+ }	
+ 
+ #menu ul li			/*   unordered list  and list items */ 
+ {
+	margin-left: 60px;
+	text-align: center;
+	float: left;
+	position: relative;
+ }	 
+ 
+  #menu ul li a /*   unordered list and list items and anchor tag (a): tab link  */ 
+ {
+	 text-decoration: none;
+	 color: white;
+	 display: block;
+ }	 
+  
+ 
+  #menu ul li a:hover
+ {
+	 border-bottom: solid thin black;
+ }	 
+ 
+
+/* ----------------------------------------------------- */
+  
+  #wrapper #paragraph{
+	  
+	  color: black;
+	  font-size: 12px;
+	  font-family: impact; 
+  }
+  
+/* ----------------------------------------------------- */
+ 
+ #wrapper #footer
+ {
+	height: 30px;
+	clear: both;
+	text-align: center;
+	color: white;
+	background-color: gray;
+	padding: 6px;
+ }
+ 
